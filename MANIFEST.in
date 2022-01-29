@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include ecom_test *.css
+recursive-include ecom_test *.csv
+recursive-include ecom_test *.html
+recursive-include ecom_test *.ico
+recursive-include ecom_test *.js
+recursive-include ecom_test *.json
+recursive-include ecom_test *.md
+recursive-include ecom_test *.png
+recursive-include ecom_test *.py
+recursive-include ecom_test *.svg
+recursive-include ecom_test *.txt
+recursive-exclude ecom_test *.pyc
